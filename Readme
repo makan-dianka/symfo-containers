@@ -1,0 +1,11 @@
+#  docker-compose to install symfony 6.
+
+
+
+Create .env and put these value
+
+```
+MYSQL_USER="change here"
+MYSQL_PASSWORD="change here"
+MYSQL_ROOT_PASSWORD="change here"
+```
