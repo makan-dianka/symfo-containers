@@ -51,8 +51,3 @@ RUN mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
 
 
 RUN apt update && apt install npm -y
-
-
-ENTRYPOINT [ "symfony" ]
-
-CMD [ "new", "--webapp", "--version=6.0.*", "monapp" ]
