@@ -19,8 +19,8 @@ services:
     image: symfo:1.0
     container_name: myapp
     ports:
-      - 8080:8081
-
+      - 8000:8000
+    tty: true
     volumes:
       - ./app:/var/www/
     
