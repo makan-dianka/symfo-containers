@@ -59,10 +59,10 @@ username=$4
 
 
 build_image(){ #build docker image symfo:1.0
-    # this function takes 6 args to build image symfo:1.0 :
+    # this function takes 4 args to build image symfo:1.0 :
     # --email exemple@gmail.com --username exemple --appname exemple.
 
-    # if args given to this function not egal to 6 
+    # if args given to this function not egal to 4 
     # then print info and stop script
     if [[ $args -ne 4 ]];
     then
@@ -74,7 +74,6 @@ build_image(){ #build docker image symfo:1.0
 
     # if arg 1 egal to email flag and 
     # arg 3 egal to flag username and
-    # arg 5 egal to flag appname
     # then build image with these info
     # otherwise print info
     if [[ $email_flag == '--email' && $username_flag == '--username' ]];
