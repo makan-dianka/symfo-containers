@@ -20,6 +20,9 @@ docker exec -it myapp bash
 
 symfony new --webapp --version=6.0.* monapp
 
+
+cd monapp
+
 symfony server:start
 
 ```
