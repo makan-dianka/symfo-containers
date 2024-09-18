@@ -23,7 +23,6 @@ services:
     tty: true
     volumes:
       - ./app:/var/www/
-    command: bash -c "symfony new --webapp --version=6.0.* ${APP_NAME}"
   database:
     image: mysql:8.0
     ports:
